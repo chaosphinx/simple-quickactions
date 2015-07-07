@@ -1,12 +1,26 @@
+@media (min-width: 1200px)  {
+
+	.description { margin: 40px 0 10px 0; font-size: 28px; line-height: 36px; }
+
+	.top-button { margin-top: 100px; }
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+	.description { font-size: 24px; line-height: 32px; }
+	
+	.top-button { margin-top: 60px; }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+	.description { font-size: 20px; line-height: 28px; }
+	
 	.top-content .text { padding-top: 25px; }
-
+	
+    .top-content h1, .features h2, .single-feature-text h2, .call-to-action-text h2 { font-size: 28px; line-height: 36px; }
+	
+	h3 { font-size: 18px; }
+	
     .features p, .single-feature-text p { padding: 0; }
     
     .single-feature-img-description { float: none; width: auto; margin-top: 30px; text-align: center; }
